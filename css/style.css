@@ -444,15 +444,15 @@
   }
 
   .slider .item-first {
-    background-image: url(../images/Slider1.jpg);
+    background-image: url(../images/Slider-1.jpg);
   }
 
   .slider .item-second {
-    background-image: url(../images/Slider2.jpg);
+    background-image: url(../images/Slider-2.jpg);
   }
 
   .slider .item-third {
-    background-image: url(../images/Slider3.jpg);
+    background-image: url(../images/Slider-3.jpg);
   }
 
 
@@ -461,7 +461,7 @@
   -----------------------------------------*/
 
    #about {
-    background: url('../images/about.png') no-repeat center center;
+    background: url('../images/efforts.jpg') no-repeat center center;
     background-size: cover;
     padding-top: 150px;
     padding-bottom: 150px;
@@ -615,8 +615,12 @@
       NEWS             
   -----------------------------------------*/
 
-  #projects, #news-detail, #faq {
+  #projects, #news-detail{
     background: #fafbfa;
+  }
+
+  #faq {
+    background: #f3f3f3;
   }
 
   #news-detail blockquote {
